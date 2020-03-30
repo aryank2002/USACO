@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class tallbarn2 {
+public class tallbarn {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new FileReader("tallbarn.in"));
