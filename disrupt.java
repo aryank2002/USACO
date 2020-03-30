@@ -99,8 +99,6 @@ public class disrupt {
 		
 		if (size[node] == 0) answers[above[node]] = -1;
 		else answers[above[node]] = tm[node].firstKey();
-		
-		if (node == 32634) System.out.println(above[node]);
 	}
 	
 	static void DFS2(int node, int parent){
